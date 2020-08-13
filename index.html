@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Link to external CSS -->
     <title>Website Refactor</title>
+    <!--Refactoring Website such that it meets Industry Standards-->
+
 </head>
 
 <body>
+    <!--Header section contains website name and navigation links-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!--Navigation links-->
         <nav>
             <ul>
                 <li>
+                    <!--Hyperlink that navigates to particular section of the page-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -24,11 +30,17 @@
             </ul>
         </nav>
     </header>
-    <div class="backgroundimage"></div>
+    <!--The hero image class is applied to website's main banner-->
+    <div class="hero-image"></div>
+    <!--Flex Container with Content and Benefits sections-->
     <div class="container">
+        <!--Content Section has 3 sub sections-->
         <section class="content">
-            <div id="search-engine-optimization" class="search-engine-optimization">
+            <!--First Section: Search Engine Optimization -->
+            <!-- Nested flex container with img and division(h2 and p) as items in it -->
+            <section id="search-engine-optimization" class="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization" />
+                <!--Flex container with h2 and p as items in it-->
                 <div class="division">
                     <h2>Search Engine Optimization</h2>
                     <p>
@@ -37,8 +49,10 @@
                         increase your visibility and find the right customers for your business.
                     </p>
                 </div>
-            </div>
-            <div id="online-reputation-management" class="online-reputation-management right">
+            </section>
+            <!--Second Section: Online reputation Management-->
+            <!--Class right is used to change the direction to row-reverse so that image is on to the right side of the container -->
+            <section id="online-reputation-management" class="online-reputation-management right">
                 <img src="./assets/images/online-reputation-management.jpg" alt="online-reputation-management" />
                 <div class="division">
                     <h2>Online Reputation Management</h2>
@@ -49,8 +63,9 @@
                         business.
                     </p>
                 </div>
-            </div>
-            <div id="social-media-marketing" class="social-media-marketing">
+            </section>
+            <!--Third Section: Social Media Marketing-->
+            <section id="social-media-marketing" class="social-media-marketing">
                 <img src="./assets/images/social-media-marketing.jpg" alt="social-media-marketing" />
                 <div class="division">
                     <h2>Social Media Marketing</h2>
@@ -60,36 +75,40 @@
                         markets and increase your lead generation.
                     </p>
                 </div>
-            </div>
+            </section>
         </section>
+        <!--Benefits Section has 3 sub sections-->
         <section class="benefits">
-            <div class="benefit-lead">
+            <!--First Section: Benefit Lead-->
+            <section class="benefit-lead">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="lead-generation" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers
                     directly to your website.
                 </p>
-            </div>
-            <div class="benefit-brand">
+            </section>
+            <!--Second Section: Benefit Brand-->
+            <section class="benefit-brand">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" alt="brand-awareness" />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and
                     visibility for your business.
                 </p>
-            </div>
-            <div class="benefit-cost">
+            </section>
+            <!--Third Section: Benefit Cost-->
+            <section class="benefit-cost">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="cost-management" />
                 <p>
                     As the search ranking for your business increases, your advertising costs decrease, and you no
                     longer need to advertise your page.
                 </p>
-            </div>
+            </section>
         </section>
     </div>
-
+   <!--Footer Section-->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
