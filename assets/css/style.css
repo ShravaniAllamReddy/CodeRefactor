@@ -26,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Used nav tag instead of div for navigation links in the header section as nav here is better semantic html element*/
+/* Used nav tag for navigation links in the header section as nav here is better semantic html element*/
 
 header nav {
     padding-top: 15px;
