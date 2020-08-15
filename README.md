@@ -15,7 +15,7 @@ This website is developed so that it is optimised for search engines.
 ## Resources used to complete this assignment
 
 *Semantic Html elements(https://www.w3schools.com/html/html5_semantic_elements.asp)
-<!--<article>
+`<`article`>`
 <aside>
 <details>
 <figcaption>
