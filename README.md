@@ -15,7 +15,7 @@ This website is developed so that it is optimised for search engines.
 ## Resources used to complete this assignment
 
 *Semantic Html elements(https://www.w3schools.com/html/html5_semantic_elements.asp)
-`<`article`>`
+<!--<article>
 <aside>
 <details>
 <figcaption>
@@ -31,13 +31,13 @@ This website is developed so that it is optimised for search engines.
 
 
 *Use of <span> tag(https://www.w3schools.com/tags/tag_span.asp#:~:text=The%20tag%20is%20an,span%3E%20is%20an%20inline%20element )
-<span> tag is an inline container used to mark up a part of a text, or a part of a document
+`<`span`>` tag is an inline container used to mark up a part of a text, or a part of a document
 
 
 *How to create links to sections on the same page in HTML(https://www.computerhope.com/issues/ch000049.htm)
 In CSS, "id" is a selector that may be used to designate an area that a link should point to, similar to anchor in HTML. The nice thing about using id is that you can create a link to any element on the page, rather than only the top or bottom. 
 Example:
-<a href="#search-engine-optimization">Search Engine Optimization</a> 
+`<`a href="#search-engine-optimization"`>`Search Engine Optimization`<`/a`>` 
  The above hyperlink navigates to the 'Search Engine Optimization' section on the same page.
 
 
