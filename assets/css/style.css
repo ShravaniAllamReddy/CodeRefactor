@@ -111,7 +111,7 @@ p {
     max-height: 200px;
  }
 
- /* consolidated 3 identically functional selectors into one with its parent class Content*/
+ /* consolidated 3 identically functional selectors into one with its parent class content*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
