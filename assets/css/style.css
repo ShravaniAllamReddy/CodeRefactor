@@ -100,7 +100,7 @@ p {
 }
 
 /*used to change the direction of row so that image is to the right side of the container*/
-.right {
+.img-right {
     flex-direction: row-reverse;
 }
 
