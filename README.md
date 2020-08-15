@@ -48,16 +48,15 @@ Example:
  Since it will be background image, it cannot have an “ALT” text because a background image is a style property of an element and ALT tag is an attribute of an element.
 
 
-## Test Case
+## Test Cases
 
 This application has passed the below testcases :
 
 1.Vaidated hyperlinks functioning as expected.
 2.Used semantic html elements as required. 
 3.Changed img elements to have alt attribute.
-4.Validated If the website is optimised for search engines.
-5.Validated if css selectors and properties are consolidated.
-6.omments are included before each section of the page.
+4.Validated if css selectors and properties are consolidated.
+5.Comments are included before each section of the page.
 
 ## Deployed URL of Application
 
