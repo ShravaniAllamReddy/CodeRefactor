@@ -30,23 +30,14 @@ This website is developed so that it is optimised for search engines.
 <time> -->
 
 
-<<<<<<< HEAD
 *Use of `<span>` tag(https://www.w3schools.com/tags/tag_span.asp#:~:text=The%20tag%20is%20an,span%3E%20is%20an%20inline%20element )
 span tag is an inline container used to mark up a part of a text, or a part of a document
-=======
-*Use of <span> tag(https://www.w3schools.com/tags/tag_span.asp#:~:text=The%20tag%20is%20an,span%3E%20is%20an%20inline%20element )
-`<`span`>` tag is an inline container used to mark up a part of a text, or a part of a document
->>>>>>> cfcf8e78377f786939f5bf306126707c17b400c0
 
 
 *How to create links to sections on the same page in HTML(https://www.computerhope.com/issues/ch000049.htm)
 In CSS, "id" is a selector that may be used to designate an area that a link should point to, similar to anchor in HTML. The nice thing about using id is that you can create a link to any element on the page, rather than only the top or bottom. 
 Example:
-<<<<<<< HEAD
 `<a href="#search-engine-optimization">Search Engine Optimization</a>`
-=======
-`<`a href="#search-engine-optimization"`>`Search Engine Optimization`<`/a`>` 
->>>>>>> cfcf8e78377f786939f5bf306126707c17b400c0
  The above hyperlink navigates to the 'Search Engine Optimization' section on the same page.
 
 
@@ -66,7 +57,7 @@ This application has passed the below testcases :
 3.Changed img elements to have alt attribute.
 4.Validated If the website is optimised for search engines.
 5.Validated if css selectors and properties are consolidated.
-6.Comments are included before each section of the page.
+6.omments are included before each section of the page.
 
 ## Deployed URL of Application
 
